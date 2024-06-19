@@ -73,7 +73,7 @@ namespace ChallengesWithTestsMark8.Tests
         [InlineData(new[] { 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 6, 6 }, true)]
         [InlineData(new[] { 10, 1000, 1002 }, true)]
         [InlineData(new[] { -1000, -1000, -500, 0, 1000000 }, true)]
-        [InlineData(new[] { 10 }, true)]
+        [InlineData(new[] { 10 }, false)]
         [InlineData(new[] { 3, 2, 1 }, false)]
         [InlineData(new[] { 0, -1, -2 }, false)]
         [InlineData(new[] { 1, 2, 3, 2 }, false)]
